@@ -51,8 +51,7 @@
                         <configuration>
                             <skip>false</skip>
                             <includes>
-                                <include>**/When*.java</include>
-                                <include>**/*Test.java</include>
+                                <include>**/WhenYouCreateACell.java</include>
                             </includes>
                             <excludes>
                                 <exclude>%regex[.*integration.*]</exclude>
