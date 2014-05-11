@@ -26,11 +26,10 @@
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
     <build>
-        <testSourceDirectory>${basedir}/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/</testSourceDirectory>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
+                <version>3.2.1</version>
                 <configuration>
                     <source>1.6</source>
                     <target>1.6</target>
@@ -41,6 +40,7 @@
                 <version>2.10</version>
                 <configuration>
                     <skip>false</skip>
+                    <testSourceDirectory>${basedir}/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/</testSourceDirectory>
                 </configuration>
                 <executions>
                     <execution>
