@@ -26,6 +26,7 @@
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
     <build>
+        <testSourceDirectory>${basedir}/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/</testSourceDirectory>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -51,7 +52,7 @@
                         <configuration>
                             <skip>false</skip>
                             <includes>
-                                <include>${basedir}/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/*.java</include>
+                                <include>**/*.java</include>
                             </includes>
                         </configuration>
                     </execution>
