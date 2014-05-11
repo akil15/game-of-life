@@ -51,11 +51,8 @@
                         <configuration>
                             <skip>false</skip>
                             <includes>
-                                <include>**/WhenYouCreateACell.java</include>
+                                <include>${basedir}/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/*.java</include>
                             </includes>
-                            <excludes>
-                                <exclude>%regex[.*integration.*]</exclude>
-                            </excludes>
                         </configuration>
                     </execution>
                     <execution>
