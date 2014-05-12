@@ -5,6 +5,8 @@ import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.junit.Test;
+
 
 @DefaultUrl("http://localhost:9090/gameoflife")
 public class GameOfLifePage extends PageObject {
@@ -15,7 +17,7 @@ public class GameOfLifePage extends PageObject {
     public GameOfLifePage(WebDriver driver) {
         super(driver);
     }
-
+    @Test
     public void clickOnHome() {
         homeLink.click();
     }
