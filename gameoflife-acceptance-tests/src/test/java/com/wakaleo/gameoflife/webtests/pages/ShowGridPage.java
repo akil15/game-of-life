@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.junit.Test;
 
 public class ShowGridPage extends GameOfLifePage {
 
@@ -20,7 +21,7 @@ public class ShowGridPage extends GameOfLifePage {
     public String[][] getDisplayedGrid() {
         return getTableWithId("grid");
     }
-
+    @Test
     public void clickOnNextGenerationButton() {
         clickOn(nextButton);
     }
