@@ -63,7 +63,6 @@
                             </includes>
                         </configuration>
                     </execution>
-                    
                     <execution>
                         <id>integration-tests</id>
                         <phase>integration-test</phase>
@@ -77,7 +76,7 @@
                             </includes>
                         </configuration>
                     </execution>
-                </executions>-->
+                </executions>
             </plugin>
             <!-- CODE COVERAGE -->
             <!--
