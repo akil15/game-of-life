@@ -38,9 +38,11 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
+                
                 <configuration>
                     <testSourceDirectory>${basedir}/src/main/java/</testSourceDirectory>
                     <testClassesDirectory>${project.build.directory}/classes/</testClassesDirectory>
+                    
                 </configuration>
                 <!--
                 <artifactId>maven-surefire-plugin</artifactId>
