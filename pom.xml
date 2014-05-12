@@ -75,8 +75,8 @@
                                 <include>%regex[.*integration.*]</include>
                             </includes>
                         </configuration>
-                    </execution>-->
-                </executions>
+                    </execution>
+                </executions>-->
             </plugin>
             <!-- CODE COVERAGE -->
             <plugin>
