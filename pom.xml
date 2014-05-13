@@ -214,6 +214,8 @@
     </dependencies>
     <!--MODULE-->
     <modules>
+        <!--Module rajoutée par Akil pour test-->
+        <module>gameoflife-acceptance-tests</module>
         <module>gameoflife-build</module>
         <module>gameoflife-core</module>
         <module>gameoflife-web</module>
